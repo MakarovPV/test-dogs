@@ -1,0 +1,15 @@
+{
+  "name": "vendor_name/dogs",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "Classes\\": "classes/",
+      "Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.5.10"
+  }
+}
